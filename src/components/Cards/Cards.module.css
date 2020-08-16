@@ -1,0 +1,36 @@
+.container {  
+    margin: 20px 0;  
+    }  
+      
+    .card {  
+        margin: 0 1% !important;  
+    }  
+      
+    .infected {  
+        border-bottom: 10px solid rgba(108, 10, 235, 0.5);  
+    }  
+      
+    .recovered {  
+        border-bottom: 10px solid rgba(60, 165, 12, 0.89);  
+    }  
+      
+    .deaths {  
+        border-bottom: 10px solid rgba(179, 13, 13, 0.829);  
+    }  
+      
+
+      
+    .btnMyGov{  
+        height: 30px;      
+        margin-right: 5px !important;  
+        width: 95px;  
+    }  
+      
+    .btnGrid{  
+        margin-top: 10px !important;  
+    }  
+    @media only screen and (max-width: 770px) {  
+        .card{  
+          margin: 2% 0 !important;  
+        }  
+      } 
